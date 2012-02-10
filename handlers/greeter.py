@@ -5,6 +5,7 @@ dbConnection  = Connection()
 finDocs = dbConnection.FI.finDocs
 
 class Greeter(RequestHandler):
+    "This class is adorable"
     def get(self):
         self.write(dict(
             type = "greeting",
