@@ -4,6 +4,7 @@ from pymongo import Connection
 dbConnection  = Connection()
 finDocs = dbConnection.FI.finDocs
 
+
 class Greeter(RequestHandler):
     "This class is adorable"
     def get(self):
